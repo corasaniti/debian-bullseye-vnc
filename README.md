@@ -21,6 +21,11 @@ docker run -d -it -p 22:22 -p 5900:5900 \
 	-e SSHPW=choose-password \
 	-e RESOLUTION=1024x768 \
 	corpie/debian-bullseye-vnc:latest
-           
-           
+                    
 ```
+
+#### SSH
+You can login via ssh with the username root and the password you have chosen.
+
+#### VNC
+Choose video resolution such as 1024x768 (for monitors in 4: 3 format) or 1920x1080 for HD monitors and connect via VNC client with username "root" (no password required)
